@@ -6,18 +6,18 @@ const Button = (props) => {
       
       setdisp(true);
       
-      const para = document.querySelector(".paragraph");
+      const para = document.querySelector("#para");
       if(setdisp){
         para.style.display = "block";
       }
     }
     return (
       <div>
-        <p style={{display:"none"}} className="paragraph">
+        <p style={{display:"none"}} id="para">
           Hello, I've learnt to use the full-stack evaluation tool. This makes me
           so happy
         </p>
-        <button onClick={showPara} >Click for pargraph</button>
+        <button onClick={showPara} id="click">Click for pargraph</button>
       </div>
     );
   };
