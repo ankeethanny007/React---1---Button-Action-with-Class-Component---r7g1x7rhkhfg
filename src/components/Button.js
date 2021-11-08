@@ -18,7 +18,7 @@ const Button = (props) => {
   return (
     <div className="div-container">
       <button onClick={showPara} id="click">
-        Click for pargraph
+        text render
       </button>
     </div>
   );
